@@ -7,6 +7,21 @@ body {
 	overflow-x: hidden;
 }
 
+.desktop {
+	overflow: scroll !important;
+}
+
+#header {
+	width: 100%;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+}
+
+#site {
+	padding: 0 12%;
+}
+
 img,
 video {
 	display: block;
